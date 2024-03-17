@@ -18,18 +18,12 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Info.pb.cc">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Person.pb.cc">
+    <ClCompile Include="msg.pb.cc">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Info.pb.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Person.pb.h">
+    <ClInclude Include="msg.pb.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
