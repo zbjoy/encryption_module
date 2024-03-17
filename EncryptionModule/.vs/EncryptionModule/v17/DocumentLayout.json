@@ -5,6 +5,38 @@
     {
       "AbsoluteMoniker": "D:0:0:{0D8F368E-1F7E-4C63-BAD4-DAEEEFED0E09}|EncryptionModule\\EncryptionModule.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\EncryptionModule\\EncryptionModule\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0D8F368E-1F7E-4C63-BAD4-DAEEEFED0E09}|EncryptionModule\\EncryptionModule.vcxproj|solutionrelative:EncryptionModule\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D8F368E-1F7E-4C63-BAD4-DAEEEFED0E09}|EncryptionModule\\EncryptionModule.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\EncryptionModule\\EncryptionModule\\msg.pb.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0D8F368E-1F7E-4C63-BAD4-DAEEEFED0E09}|EncryptionModule\\EncryptionModule.vcxproj|solutionrelative:EncryptionModule\\msg.pb.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D8F368E-1F7E-4C63-BAD4-DAEEEFED0E09}|EncryptionModule\\EncryptionModule.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\EncryptionModule\\EncryptionModule\\Codec.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0D8F368E-1F7E-4C63-BAD4-DAEEEFED0E09}|EncryptionModule\\EncryptionModule.vcxproj|solutionrelative:EncryptionModule\\Codec.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D8F368E-1F7E-4C63-BAD4-DAEEEFED0E09}|EncryptionModule\\EncryptionModule.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\EncryptionModule\\EncryptionModule\\Response.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0D8F368E-1F7E-4C63-BAD4-DAEEEFED0E09}|EncryptionModule\\EncryptionModule.vcxproj|solutionrelative:EncryptionModule\\Response.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D8F368E-1F7E-4C63-BAD4-DAEEEFED0E09}|EncryptionModule\\EncryptionModule.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\EncryptionModule\\EncryptionModule\\Response.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0D8F368E-1F7E-4C63-BAD4-DAEEEFED0E09}|EncryptionModule\\EncryptionModule.vcxproj|solutionrelative:EncryptionModule\\Response.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D8F368E-1F7E-4C63-BAD4-DAEEEFED0E09}|EncryptionModule\\EncryptionModule.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\EncryptionModule\\EncryptionModule\\Request.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0D8F368E-1F7E-4C63-BAD4-DAEEEFED0E09}|EncryptionModule\\EncryptionModule.vcxproj|solutionrelative:EncryptionModule\\Request.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D8F368E-1F7E-4C63-BAD4-DAEEEFED0E09}|EncryptionModule\\EncryptionModule.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\EncryptionModule\\EncryptionModule\\Codec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0D8F368E-1F7E-4C63-BAD4-DAEEEFED0E09}|EncryptionModule\\EncryptionModule.vcxproj|solutionrelative:EncryptionModule\\Codec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D8F368E-1F7E-4C63-BAD4-DAEEEFED0E09}|EncryptionModule\\EncryptionModule.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\EncryptionModule\\EncryptionModule\\Request.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0D8F368E-1F7E-4C63-BAD4-DAEEEFED0E09}|EncryptionModule\\EncryptionModule.vcxproj|solutionrelative:EncryptionModule\\Request.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D8F368E-1F7E-4C63-BAD4-DAEEEFED0E09}|EncryptionModule\\EncryptionModule.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\EncryptionModule\\EncryptionModule\\msg.pb.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0D8F368E-1F7E-4C63-BAD4-DAEEEFED0E09}|EncryptionModule\\EncryptionModule.vcxproj|solutionrelative:EncryptionModule\\msg.pb.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +46,111 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "msg.pb.h",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\EncryptionModule\\EncryptionModule\\msg.pb.h",
+              "RelativeDocumentMoniker": "EncryptionModule\\msg.pb.h",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\EncryptionModule\\EncryptionModule\\msg.pb.h",
+              "RelativeToolTip": "EncryptionModule\\msg.pb.h",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-17T12:26:26.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Response.cpp",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\EncryptionModule\\EncryptionModule\\Response.cpp",
+              "RelativeDocumentMoniker": "EncryptionModule\\Response.cpp",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\EncryptionModule\\EncryptionModule\\Response.cpp",
+              "RelativeToolTip": "EncryptionModule\\Response.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T12:25:16.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Response.h",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\EncryptionModule\\EncryptionModule\\Response.h",
+              "RelativeDocumentMoniker": "EncryptionModule\\Response.h",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\EncryptionModule\\EncryptionModule\\Response.h",
+              "RelativeToolTip": "EncryptionModule\\Response.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-17T12:20:04.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Request.cpp",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\EncryptionModule\\EncryptionModule\\Request.cpp",
+              "RelativeDocumentMoniker": "EncryptionModule\\Request.cpp",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\EncryptionModule\\EncryptionModule\\Request.cpp",
+              "RelativeToolTip": "EncryptionModule\\Request.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T12:17:28.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Request.h",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\EncryptionModule\\EncryptionModule\\Request.h",
+              "RelativeDocumentMoniker": "EncryptionModule\\Request.h",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\EncryptionModule\\EncryptionModule\\Request.h",
+              "RelativeToolTip": "EncryptionModule\\Request.h",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-17T12:13:14.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Codec.cpp",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\EncryptionModule\\EncryptionModule\\Codec.cpp",
+              "RelativeDocumentMoniker": "EncryptionModule\\Codec.cpp",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\EncryptionModule\\EncryptionModule\\Codec.cpp",
+              "RelativeToolTip": "EncryptionModule\\Codec.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T12:10:21.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Codec.h",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\EncryptionModule\\EncryptionModule\\Codec.h",
+              "RelativeDocumentMoniker": "EncryptionModule\\Codec.h",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\EncryptionModule\\EncryptionModule\\Codec.h",
+              "RelativeToolTip": "EncryptionModule\\Codec.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-17T12:08:49.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "msg.pb.cc",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\EncryptionModule\\EncryptionModule\\msg.pb.cc",
+              "RelativeDocumentMoniker": "EncryptionModule\\msg.pb.cc",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\EncryptionModule\\EncryptionModule\\msg.pb.cc",
+              "RelativeToolTip": "EncryptionModule\\msg.pb.cc",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T12:18:11.77Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -28,7 +160,7 @@
               "RelativeDocumentMoniker": "EncryptionModule\\main.cpp",
               "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\EncryptionModule\\EncryptionModule\\main.cpp",
               "RelativeToolTip": "EncryptionModule\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-17T04:58:09.537Z",
               "EditorCaption": ""
