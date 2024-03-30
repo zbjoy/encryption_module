@@ -10,6 +10,13 @@ public:
 
     RequestFactory(RequestInfo* info);
 
-    
+    Codec* createCodec();
+
+    ~RequestFactory();
+
+private:
+    bool m_flag;
+    std::string m_encStr;
+    RequestInfo* m_info;
 };
 

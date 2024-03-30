@@ -1,24 +1,24 @@
 #include "Response.h"
 
-ResponseCodec::ResponseCodec()
+RespondCodec::RespondCodec()
 {
 }
 
-ResponseCodec::ResponseCodec(std::string encstr)
+RespondCodec::RespondCodec(std::string encstr)
 {
 }
 
-ResponseCodec::ResponseCodec(RespondInfo* info)
+RespondCodec::RespondCodec(RespondInfo* info)
 {
 	this->initMessage(info);
 }
 
-void ResponseCodec::initMessage(std::string encstr)
+void RespondCodec::initMessage(std::string encstr)
 {
 	this->initMessage(encstr);
 }
 
-void ResponseCodec::initMessage(RespondInfo* info)
+void RespondCodec::initMessage(RespondInfo* info)
 {
 	this->m_msg.set_status(info->status);
 	this->m_msg.set_seckeyid(info->seckeyID);
@@ -27,19 +27,19 @@ void ResponseCodec::initMessage(RespondInfo* info)
 	this->m_msg.set_data(info->data);
 }
 
-std::string ResponseCodec::encodeMsg()
+std::string RespondCodec::encodeMsg()
 {
 	std::string output;
 	m_msg.SerializeToString(&output);
 	return output;
 }
 
-void* ResponseCodec::decodeMsg()
+void* RespondCodec::decodeMsg()
 {
 	m_msg.ParseFromString(m_encStr);
 	return &m_msg;
 }
 
-ResponseCodec::~ResponseCodec()
+RespondCodec::~RespondCodec()
 {
 }

@@ -138,6 +138,7 @@
     <ClCompile Include="msg.pb.cc" />
     <ClCompile Include="Request.cpp" />
     <ClCompile Include="RequestFacory.cpp" />
+    <ClCompile Include="RespondFactory.cpp" />
     <ClCompile Include="Response.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -146,6 +147,7 @@
     <ClInclude Include="msg.pb.h" />
     <ClInclude Include="Request.h" />
     <ClInclude Include="RequestFacory.h" />
+    <ClInclude Include="RespondFactory.h" />
     <ClInclude Include="Response.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -10,18 +10,18 @@ struct RespondInfo
     std::string data;
 };
 
-class ResponseCodec :
+class RespondCodec :
     public Codec
 {
 public:
-    ResponseCodec();
-    ResponseCodec(std::string encstr);
-    ResponseCodec(RespondInfo* info);
+    RespondCodec();
+    RespondCodec(std::string encstr);
+    RespondCodec(RespondInfo* info);
     void initMessage(std::string encstr);
     void initMessage(RespondInfo* info);
     std::string encodeMsg();
     void* decodeMsg();
-    ~ResponseCodec();
+    ~RespondCodec();
 
 private:
     std::string m_encStr;

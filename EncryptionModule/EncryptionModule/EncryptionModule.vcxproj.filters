@@ -36,6 +36,9 @@
     <ClCompile Include="RequestFacory.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="RespondFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="msg.pb.h">
@@ -54,6 +57,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="RequestFacory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RespondFactory.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
