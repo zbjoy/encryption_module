@@ -1,35 +1,46 @@
 #include "Request.h"
 
-Request::Request()
+RequestCodec::RequestCodec()
 {
 }
 
-Request::Request(std::string encstr)
+RequestCodec::RequestCodec(std::string encstr)
 {
+	this->initMessage(encstr);
 }
 
-Request::Request(int cmd, std::string clientID, std::string sign, std::string data)
+RequestCodec::RequestCodec(RequestInfo* info)
 {
+	this->initMessage(info);
 }
 
-void Request::initMessage(std::string encstr)
+void RequestCodec::initMessage(std::string encstr)
 {
+	this->m_encStr = encstr;
 }
 
-void Request::initMessage(int cmd, std::string clientID, std::string serverID, std::string sign, std::string data)
+void RequestCodec::initMessage(RequestInfo* info)
 {
+	this->m_msg.set_cmdtype(info->cmd);
+	this->m_msg.set_clientid(info->clientID);
+	this->m_msg.set_serverid(info->serverID);
+	this->m_msg.set_sign(info->sign);
+	this->m_msg.set_data(info->data);
 }
 
-std::string Request::encodeMsg()
+std::string RequestCodec::encodeMsg()
 {
-	return std::string();
+	std::string output;
+	this->m_msg.SerializeToString(&output);
+	return output;
 }
 
-void* Request::decodeMsg()
+void* RequestCodec::decodeMsg()
 {
-	return NULL;
+	this->m_msg.ParseFromString(this->m_encStr);
+	return &this->m_encStr;
 }
 
-Request::~Request()
+RequestCodec::~RequestCodec()
 {
 }

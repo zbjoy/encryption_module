@@ -1,17 +1,27 @@
 #pragma once
 #include "Codec.h"
-class Request :
+
+struct RequestInfo
+{
+    int cmd;
+    std::string clientID;
+    std::string serverID;
+    std::string sign;
+    std::string data;
+};
+
+class RequestCodec :
     public Codec
 {
 public:
-    Request();
-    Request(std::string encstr);
-    Request(int cmd, std::string clientID, std::string sign, std::string data);
+    RequestCodec();
+    RequestCodec(std::string encstr);
+    RequestCodec(RequestInfo* info);
     void initMessage(std::string encstr);
-    void initMessage(int cmd, std::string clientID, std::string serverID, std::string sign, std::string data);
+    void initMessage(RequestInfo* info);
     std::string encodeMsg();
     void* decodeMsg();
-    ~Request();
+    ~RequestCodec();
 
 private:
     std::string m_encStr;

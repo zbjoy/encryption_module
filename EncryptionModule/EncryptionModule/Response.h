@@ -1,16 +1,30 @@
 #pragma once
 #include "Codec.h"
-class Response :
+
+struct RespondInfo
+{
+    int status;
+    int seckeyID;
+    std::string clientID;
+    std::string serverID;
+    std::string data;
+};
+
+class ResponseCodec :
     public Codec
 {
 public:
-    Response();
-    Response(std::string encstr);
-    Response(int status, int seckeyID, std::string clientID, std::string serverID, std::string data);
+    ResponseCodec();
+    ResponseCodec(std::string encstr);
+    ResponseCodec(RespondInfo* info);
     void initMessage(std::string encstr);
-    void initMessage(int status, int seckeyID, std::string clientID, std::string serverID, std::string data);
+    void initMessage(RespondInfo* info);
     std::string encodeMsg();
     void* decodeMsg();
-    ~Response();
+    ~ResponseCodec();
+
+private:
+    std::string m_encStr;
+    RespondMsg m_msg;
 };
 

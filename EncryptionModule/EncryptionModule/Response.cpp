@@ -1,35 +1,45 @@
 #include "Response.h"
 
-Response::Response()
+ResponseCodec::ResponseCodec()
 {
 }
 
-Response::Response(std::string encstr)
+ResponseCodec::ResponseCodec(std::string encstr)
 {
 }
 
-Response::Response(int status, int seckeyID, std::string clientID, std::string serverID, std::string data)
+ResponseCodec::ResponseCodec(RespondInfo* info)
 {
+	this->initMessage(info);
 }
 
-void Response::initMessage(std::string encstr)
+void ResponseCodec::initMessage(std::string encstr)
 {
+	this->initMessage(encstr);
 }
 
-void Response::initMessage(int status, int seckeyID, std::string clientID, std::string serverID, std::string data)
+void ResponseCodec::initMessage(RespondInfo* info)
 {
+	this->m_msg.set_status(info->status);
+	this->m_msg.set_seckeyid(info->seckeyID);
+	this->m_msg.set_clientid(info->clientID);
+	this->m_msg.set_serverid(info->serverID);
+	this->m_msg.set_data(info->data);
 }
 
-std::string Response::encodeMsg()
+std::string ResponseCodec::encodeMsg()
 {
-	return std::string();
+	std::string output;
+	m_msg.SerializeToString(&output);
+	return output;
 }
 
-void* Response::decodeMsg()
+void* ResponseCodec::decodeMsg()
 {
-	return NULL;
+	m_msg.ParseFromString(m_encStr);
+	return &m_msg;
 }
 
-Response::~Response()
+ResponseCodec::~ResponseCodec()
 {
 }

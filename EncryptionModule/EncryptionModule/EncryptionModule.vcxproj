@@ -133,15 +133,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Codec.cpp" />
+    <ClCompile Include="CodecFactory.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="msg.pb.cc" />
     <ClCompile Include="Request.cpp" />
+    <ClCompile Include="RequestFacory.cpp" />
     <ClCompile Include="Response.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Codec.h" />
+    <ClInclude Include="CodecFactory.h" />
     <ClInclude Include="msg.pb.h" />
     <ClInclude Include="Request.h" />
+    <ClInclude Include="RequestFacory.h" />
     <ClInclude Include="Response.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

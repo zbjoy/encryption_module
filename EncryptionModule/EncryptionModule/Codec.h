@@ -7,7 +7,7 @@ class Codec
 {
 public:
 	Codec();
-	~Codec();
+	virtual ~Codec();
 	virtual std::string encodeMsg(); //Ðéº¯Êý
 	virtual void* decodeMsg(); //Ðéº¯Êý
 };
