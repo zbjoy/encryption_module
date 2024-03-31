@@ -15,6 +15,8 @@ void md5_test()
 		sprintf(&res[i * 2], "%02x", buf[i]);
 	}
 	std::cout << "md5: " << res << std::endl;
+	delete[] buf;
+	delete[] res;
 }
 
 void sha224_test()
@@ -31,6 +33,8 @@ void sha224_test()
 		sprintf(&res[i * 2], "%02x", temp[i]);
 	}
 	std::cout << res << std::endl;
+	delete[] temp;
+	delete[] res;
 }
 
 void sha256_test()
@@ -47,6 +51,8 @@ void sha256_test()
 		sprintf(&res[i * 2], "%02x", temp[i]);
 	}
 	std::cout << res << std::endl;
+	delete[] temp;
+	delete[] res;
 }
 
 int main()

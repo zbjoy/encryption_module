@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{DE048696-6A40-4EF3-ACC9-022BE87DBDE2}|openssl_test\\openssl_test.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\openssl_test\\openssl_test\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DE048696-6A40-4EF3-ACC9-022BE87DBDE2}|openssl_test\\openssl_test.vcxproj|solutionrelative:openssl_test\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE048696-6A40-4EF3-ACC9-022BE87DBDE2}|openssl_test\\openssl_test.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\openssl_test\\openssl_test\\MyHash.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DE048696-6A40-4EF3-ACC9-022BE87DBDE2}|openssl_test\\openssl_test.vcxproj|solutionrelative:openssl_test\\MyHash.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE048696-6A40-4EF3-ACC9-022BE87DBDE2}|openssl_test\\openssl_test.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\openssl_test\\openssl_test\\MyHash.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DE048696-6A40-4EF3-ACC9-022BE87DBDE2}|openssl_test\\openssl_test.vcxproj|solutionrelative:openssl_test\\MyHash.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyHash.cpp",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\openssl_test\\openssl_test\\MyHash.cpp",
+              "RelativeDocumentMoniker": "openssl_test\\MyHash.cpp",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\openssl_test\\openssl_test\\MyHash.cpp",
+              "RelativeToolTip": "openssl_test\\MyHash.cpp",
+              "ViewState": "AQIAAJgAAAAAAAAAAAAAAKIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-31T13:29:28.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyHash.h",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\openssl_test\\openssl_test\\MyHash.h",
+              "RelativeDocumentMoniker": "openssl_test\\MyHash.h",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\openssl_test\\openssl_test\\MyHash.h",
+              "RelativeToolTip": "openssl_test\\MyHash.h",
+              "ViewState": "AQIAABsAAAAAAAAAAAAIwCYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-31T13:25:00.178Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +58,7 @@
               "RelativeDocumentMoniker": "openssl_test\\main.cpp",
               "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\openssl_test\\openssl_test\\main.cpp",
               "RelativeToolTip": "openssl_test\\main.cpp",
-              "ViewState": "AQIAACoAAAAAAAAAAAAcwDkAAAAAAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAIwD4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-31T11:33:39.815Z",
               "EditorCaption": ""
