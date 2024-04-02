@@ -4,6 +4,7 @@
 #include <openssl/sha.h>
 #include <openssl/rsa.h>
 #include <openssl/pem.h>
+#include "RSACrypto.h"
 
 void md5_test()
 {
@@ -138,12 +139,24 @@ void rsa_test()
 	RSA_free(rsa_read_priKey);
 }
 
+void test_RSA()
+{
+	RSACrypto m_rsa;
+	m_rsa.generateRsakey(1024);
+	std::string enStr = m_rsa.rsaPubKeyEncrypt(std::string("我爱C++   才怪"));
+	//std::string enStr = m_rsa.rsaPubKeyEncrypt(std::string("helloworld"));
+	std::cout << "加密后的数据:" << enStr << std::endl;
+	std::string deStr = m_rsa.rsaPriKeyDecrypt(enStr);
+	std::cout << "解密后的数据:" << deStr << std::endl;
+}
+
 int main()
 {
 	//md5_test(); //md5测试
 	//sha224_test();
 	//sha256_test();
 	//sha512_test();
-	rsa_test();
+	//rsa_test();
+	test_RSA();
 	return 0;
 }

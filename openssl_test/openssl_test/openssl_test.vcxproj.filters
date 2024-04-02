@@ -21,9 +21,15 @@
     <ClCompile Include="MyHash.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="RSACrypto.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyHash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RSACrypto.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -134,9 +134,11 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MyHash.cpp" />
+    <ClCompile Include="RSACrypto.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyHash.h" />
+    <ClInclude Include="RSACrypto.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -84,6 +84,7 @@ private:
 		SHA512_Update(&m_sha512, data, strlen(data));
 	}
 	std::string sha512Result();
+
 private:
 
 	HashType m_type;
