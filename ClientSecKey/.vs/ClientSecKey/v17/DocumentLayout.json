@@ -1,0 +1,439 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|solutionrelative:ClientSecKey\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\Hash.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|solutionrelative:ClientSecKey\\Hash.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RequestCodec.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|solutionrelative:ClientSecKey\\RequestCodec.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\Message.pb.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|solutionrelative:ClientSecKey\\Message.pb.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\TcpSocket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|solutionrelative:ClientSecKey\\TcpSocket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\TcpSocket.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|solutionrelative:ClientSecKey\\TcpSocket.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RsaCrypto.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|solutionrelative:ClientSecKey\\RsaCrypto.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RsaCrypto.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|solutionrelative:ClientSecKey\\RsaCrypto.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RespondFactory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|solutionrelative:ClientSecKey\\RespondFactory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RespondFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|solutionrelative:ClientSecKey\\RespondFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RespondCodec.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|solutionrelative:ClientSecKey\\RespondCodec.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RespondCodec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|solutionrelative:ClientSecKey\\RespondCodec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RequestFactory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|solutionrelative:ClientSecKey\\RequestFactory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RequestFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|solutionrelative:ClientSecKey\\RequestFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RequestCodec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|solutionrelative:ClientSecKey\\RequestCodec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\Message.pb.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|solutionrelative:ClientSecKey\\Message.pb.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\Hash.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|solutionrelative:ClientSecKey\\Hash.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\CodecFactory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|solutionrelative:ClientSecKey\\CodecFactory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\CodecFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|solutionrelative:ClientSecKey\\CodecFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\Codec.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|solutionrelative:ClientSecKey\\Codec.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\Codec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|solutionrelative:ClientSecKey\\Codec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\ClientOP.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|solutionrelative:ClientSecKey\\ClientOP.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\ClientOP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|solutionrelative:ClientSecKey\\ClientOP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|C:\\USERS\\66426\\APPDATA\\LOCAL\\MICROSOFT\\LINUX\\HEADERCACHE\\1.0\\-1085482660\\USR\\INCLUDE\\WCHAR.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314DA61A-3AC6-40F7-AAB5-439E95B598A1}|ClientSecKey\\ClientSecKey.vcxproj|C:\\USERS\\66426\\APPDATA\\LOCAL\\MICROSOFT\\LINUX\\HEADERCACHE\\1.0\\-1085482660\\USR\\INCLUDE\\STDIO.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RsaCrypto.h",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RsaCrypto.h",
+              "RelativeDocumentMoniker": "ClientSecKey\\RsaCrypto.h",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RsaCrypto.h",
+              "RelativeToolTip": "ClientSecKey\\RsaCrypto.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-05T14:14:33.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TcpSocket.cpp",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\TcpSocket.cpp",
+              "RelativeDocumentMoniker": "ClientSecKey\\TcpSocket.cpp",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\TcpSocket.cpp",
+              "RelativeToolTip": "ClientSecKey\\TcpSocket.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMABAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-05T15:43:06.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TcpSocket.h",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\TcpSocket.h",
+              "RelativeDocumentMoniker": "ClientSecKey\\TcpSocket.h",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\TcpSocket.h",
+              "RelativeToolTip": "ClientSecKey\\TcpSocket.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-05T15:32:28.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\main.cpp",
+              "RelativeDocumentMoniker": "ClientSecKey\\main.cpp",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\main.cpp",
+              "RelativeToolTip": "ClientSecKey\\main.cpp",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-05T12:21:39.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RsaCrypto.cpp",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RsaCrypto.cpp",
+              "RelativeDocumentMoniker": "ClientSecKey\\RsaCrypto.cpp",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RsaCrypto.cpp",
+              "RelativeToolTip": "ClientSecKey\\RsaCrypto.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-05T14:23:46.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RespondFactory.h",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RespondFactory.h",
+              "RelativeDocumentMoniker": "ClientSecKey\\RespondFactory.h",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RespondFactory.h",
+              "RelativeToolTip": "ClientSecKey\\RespondFactory.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-05T15:45:54.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Message.pb.cc",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\Message.pb.cc",
+              "RelativeDocumentMoniker": "ClientSecKey\\Message.pb.cc",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\Message.pb.cc",
+              "RelativeToolTip": "ClientSecKey\\Message.pb.cc",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-05T15:56:12.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RequestCodec.h",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RequestCodec.h",
+              "RelativeDocumentMoniker": "ClientSecKey\\RequestCodec.h",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RequestCodec.h",
+              "RelativeToolTip": "ClientSecKey\\RequestCodec.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-05T14:59:27.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Hash.h",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\Hash.h",
+              "RelativeDocumentMoniker": "ClientSecKey\\Hash.h",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\Hash.h",
+              "RelativeToolTip": "ClientSecKey\\Hash.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-05T15:19:01.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RespondFactory.cpp",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RespondFactory.cpp",
+              "RelativeDocumentMoniker": "ClientSecKey\\RespondFactory.cpp",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RespondFactory.cpp",
+              "RelativeToolTip": "ClientSecKey\\RespondFactory.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-05T15:46:15.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RespondCodec.h",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RespondCodec.h",
+              "RelativeDocumentMoniker": "ClientSecKey\\RespondCodec.h",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RespondCodec.h",
+              "RelativeToolTip": "ClientSecKey\\RespondCodec.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-05T15:44:46.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RespondCodec.cpp",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RespondCodec.cpp",
+              "RelativeDocumentMoniker": "ClientSecKey\\RespondCodec.cpp",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RespondCodec.cpp",
+              "RelativeToolTip": "ClientSecKey\\RespondCodec.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-05T15:45:13.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RequestFactory.h",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RequestFactory.h",
+              "RelativeDocumentMoniker": "ClientSecKey\\RequestFactory.h",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RequestFactory.h",
+              "RelativeToolTip": "ClientSecKey\\RequestFactory.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-05T15:27:37.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RequestFactory.cpp",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RequestFactory.cpp",
+              "RelativeDocumentMoniker": "ClientSecKey\\RequestFactory.cpp",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RequestFactory.cpp",
+              "RelativeToolTip": "ClientSecKey\\RequestFactory.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-05T15:29:16.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RequestCodec.cpp",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RequestCodec.cpp",
+              "RelativeDocumentMoniker": "ClientSecKey\\RequestCodec.cpp",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\RequestCodec.cpp",
+              "RelativeToolTip": "ClientSecKey\\RequestCodec.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-05T14:59:40.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Message.pb.h",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\Message.pb.h",
+              "RelativeDocumentMoniker": "ClientSecKey\\Message.pb.h",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\Message.pb.h",
+              "RelativeToolTip": "ClientSecKey\\Message.pb.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-05T15:57:02.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Hash.cpp",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\Hash.cpp",
+              "RelativeDocumentMoniker": "ClientSecKey\\Hash.cpp",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\Hash.cpp",
+              "RelativeToolTip": "ClientSecKey\\Hash.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-05T15:21:12.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CodecFactory.h",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\CodecFactory.h",
+              "RelativeDocumentMoniker": "ClientSecKey\\CodecFactory.h",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\CodecFactory.h",
+              "RelativeToolTip": "ClientSecKey\\CodecFactory.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-05T15:26:14.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CodecFactory.cpp",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\CodecFactory.cpp",
+              "RelativeDocumentMoniker": "ClientSecKey\\CodecFactory.cpp",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\CodecFactory.cpp",
+              "RelativeToolTip": "ClientSecKey\\CodecFactory.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-05T15:26:40.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Codec.h",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\Codec.h",
+              "RelativeDocumentMoniker": "ClientSecKey\\Codec.h",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\Codec.h",
+              "RelativeToolTip": "ClientSecKey\\Codec.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-05T14:54:49.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Codec.cpp",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\Codec.cpp",
+              "RelativeDocumentMoniker": "ClientSecKey\\Codec.cpp",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\Codec.cpp",
+              "RelativeToolTip": "ClientSecKey\\Codec.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-05T14:55:44.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ClientOP.h",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\ClientOP.h",
+              "RelativeDocumentMoniker": "ClientSecKey\\ClientOP.h",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\ClientOP.h",
+              "RelativeToolTip": "ClientSecKey\\ClientOP.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-05T14:01:20.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ClientOP.cpp",
+              "DocumentMoniker": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\ClientOP.cpp",
+              "RelativeDocumentMoniker": "ClientSecKey\\ClientOP.cpp",
+              "ToolTip": "E:\\code\\EncryptionModule\\encryption_module\\ClientSecKey\\ClientSecKey\\ClientOP.cpp",
+              "RelativeToolTip": "ClientSecKey\\ClientOP.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-05T14:04:42.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "wchar.h",
+              "DocumentMoniker": "C:\\Users\\66426\\AppData\\Local\\Microsoft\\Linux\\HeaderCache\\1.0\\-1085482660\\usr\\include\\wchar.h",
+              "ToolTip": "C:\\Users\\66426\\AppData\\Local\\Microsoft\\Linux\\HeaderCache\\1.0\\-1085482660\\usr\\include\\wchar.h",
+              "ViewState": "AQIAAJUAAAAAAAAAAAA2wJoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-05T15:56:25.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "stdio.h",
+              "DocumentMoniker": "C:\\Users\\66426\\AppData\\Local\\Microsoft\\Linux\\HeaderCache\\1.0\\-1085482660\\usr\\include\\stdio.h",
+              "ToolTip": "C:\\Users\\66426\\AppData\\Local\\Microsoft\\Linux\\HeaderCache\\1.0\\-1085482660\\usr\\include\\stdio.h",
+              "ViewState": "AQIAANUAAAAAAAAAAAA4wN4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-05T15:49:13.688Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“8.141.80.68”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  ClientOP.cpp
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\ClientOP.cpp(27,41): warning : conversion from ‘Json::Value::Int’ {aka ‘int’} to ‘short unsigned int’ may change value [-Wconversion]
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\ClientOP.cpp(27,41): warning :    27 |         m_info.port = root["Port"].asInt();
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\ClientOP.cpp(27,41): warning :       |                       ~~~~~~~~~~~~~~~~~~^~
+  Codec.cpp
+  CodecFactory.cpp
+  Hash.cpp
+  main.cpp
+  Message.pb.cc
+  RequestCodec.cpp
+  RequestFactory.cpp
+  RespondCodec.cpp
+  RespondFactory.cpp
+  RsaCrypto.cpp
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\RsaCrypto.cpp(74,47): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\RsaCrypto.cpp(74,47): warning :    74 |         int ret = RSA_public_encrypt(data.size(), (unsigned char*)data.data(), (unsigned char*)encode, this->m_publicKey, RSA_PKCS1_PADDING);
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\RsaCrypto.cpp(74,47): warning :       |                                      ~~~~~~~~~^~
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\RsaCrypto.cpp(90,51): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\RsaCrypto.cpp(90,51): warning :    90 |         int ret = RSA_private_decrypt(encData.size(), (unsigned char*)encData.data(), (unsigned char*)decode, this->m_privateKey, RSA_PKCS1_PADDING);
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\RsaCrypto.cpp(90,51): warning :       |                                       ~~~~~~~~~~~~^~
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\RsaCrypto.cpp(104,69): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘unsigned int’ may change value [-Wconversion]
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\RsaCrypto.cpp(104,69): warning :   104 |         RSA_sign(level, (const unsigned char*)data.data(), data.size(), (unsigned char*)signBuf,
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\RsaCrypto.cpp(104,69): warning :       |                                                            ~~~~~~~~~^~
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\RsaCrypto.cpp(115,81): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘unsigned int’ may change value [-Wconversion]
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\RsaCrypto.cpp(115,81): warning :   115 |         int ret = RSA_verify(level, (const unsigned char*)data.data(), data.size(),
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\RsaCrypto.cpp(115,81): warning :       |                                                                        ~~~~~~~~~^~
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\RsaCrypto.cpp(116,69): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘unsigned int’ may change value [-Wconversion]
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\RsaCrypto.cpp(116,69): warning :   116 |                 (const unsigned char*)signData.data(), signData.size(), m_publicKey);
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\RsaCrypto.cpp(116,69): warning :       |                                                        ~~~~~~~~~~~~~^~
+  TcpSocket.cpp
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\TcpSocket.cpp(75,47): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\TcpSocket.cpp(75,47): warning :    75 |                 int dataLen = sendData.size() + 4;
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\TcpSocket.cpp(75,47): warning :       |                               ~~~~~~~~~~~~~~~~^~~
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\TcpSocket.cpp(85,49): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘uint32_t’ {aka ‘unsigned int’} may change value [-Wconversion]
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\TcpSocket.cpp(85,49): warning :    85 |                 int netlen = htonl(sendData.size());
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\TcpSocket.cpp(85,49): warning :       |                                    ~~~~~~~~~~~~~^~
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\TcpSocket.cpp(407,38): warning : conversion from ‘size_t’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\TcpSocket.cpp(407,38): warning :   407 |                         return count - nleft;
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\TcpSocket.cpp(407,38): warning :       |                                ~~~~~~^~~~~~~
+  正在链接对象
+  ClientSecKey.vcxproj -> E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\bin\x64\Debug\ClientSecKey.out
