@@ -6,9 +6,9 @@
   正在启动远程生成
   正在编译源:
   ClientOP.cpp
-E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\ClientOP.cpp(27,41): warning : conversion from ‘Json::Value::Int’ {aka ‘int’} to ‘short unsigned int’ may change value [-Wconversion]
-E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\ClientOP.cpp(27,41): warning :    27 |         m_info.port = root["Port"].asInt();
-E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\ClientOP.cpp(27,41): warning :       |                       ~~~~~~~~~~~~~~~~~~^~
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\ClientOP.cpp(30,41): warning : conversion from ‘Json::Value::Int’ {aka ‘int’} to ‘short unsigned int’ may change value [-Wconversion]
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\ClientOP.cpp(30,41): warning :    30 |         m_info.port = root["Port"].asInt();
+E:\code\EncryptionModule\encryption_module\ClientSecKey\ClientSecKey\ClientOP.cpp(30,41): warning :       |                       ~~~~~~~~~~~~~~~~~~^~
   Codec.cpp
   CodecFactory.cpp
   Hash.cpp

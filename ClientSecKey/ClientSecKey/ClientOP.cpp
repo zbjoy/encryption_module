@@ -1,5 +1,6 @@
-#include "ClientOP.h"
+ï»¿#include "ClientOP.h"
 #include <json/json.h>
+#include <iostream>
 #include <fstream>
 #include <sstream>
 #include "RsaCrypto.h"
@@ -8,6 +9,8 @@
 #include "RequestFactory.h"
 #include "TcpSocket.h"
 #include "RespondFactory.h"
+#include "RespondCodec.h"
+#include "Message.pb.h"
 
 using namespace std;
 using namespace Json;
@@ -15,17 +18,17 @@ using namespace Json;
 ClientOP::ClientOP(string jsonFile)
 {
 	cout << "hello ClientOP" << endl;
-	// ½âÎöjsonÎÄ¼ş, ¶ÁÎÄ¼ş -> Value
+	// è§£æjsonæ–‡ä»¶, è¯»æ–‡ä»¶ -> Value
 	ifstream ifs(jsonFile);
 	Reader r;
 	Value root;
 	r.parse(ifs, root);
-	// ½«rootÖĞµÄ¼üÖµ¶ÔvalueÈ¡³ö
+	// å°†rootä¸­çš„é”®å€¼å¯¹valueå–å‡º
 	m_info.serverID = root["serverID"].asString();
 	m_info.clientID = root["ClientID"].asString();
 	m_info.ip = root["ServerIP"].asString();
 	m_info.port = root["Port"].asInt();
-	cout << m_info.ip << ", ¶Ë¿Ú:" << m_info.port << endl;
+	cout << m_info.ip << ", ç«¯å£:" << m_info.port << endl;
 }
 
 ClientOP::~ClientOP()
@@ -34,64 +37,67 @@ ClientOP::~ClientOP()
 
 bool ClientOP::seckeyAgree()
 {
-	// 0. Éú³ÉÃÜÔ¿¶Ô, ½«¹«Ô¿×Ö·û´®È¡³ö
+	// 0. ç”Ÿæˆå¯†é’¥å¯¹, å°†å…¬é’¥å­—ç¬¦ä¸²å–å‡º
 	RsaCrypto rsa;
-	// Éú³ÉÃÜÔ¿¶Ô
+	// ç”Ÿæˆå¯†é’¥å¯¹
 	rsa.generateRsakey(1024);
-	// ¶Á¹«Ô¿ÎÄ¼ş
+	// è¯»å…¬é’¥æ–‡ä»¶
 	ifstream ifs("public.pem");
 	stringstream str;
 	str << ifs.rdbuf();
-	// 1. ³õÊ¼»¯ĞòÁĞ»¯Êı¾İ
-	// ĞòÁĞ»¯µÄÀà¶ÔÏó -> ¹¤³§Àà´´½¨
+	// 1. åˆå§‹åŒ–åºåˆ—åŒ–æ•°æ®
+	// åºåˆ—åŒ–çš„ç±»å¯¹è±¡ -> å·¥å‚ç±»åˆ›å»º
 	RequestInfo reqInfo;
 	reqInfo.clientID = m_info.clientID;
 	reqInfo.serverID = m_info.serverID;
-	reqInfo.cmd = 1;	// ÃØÔ¿Ğ­ÉÌ
-	reqInfo.data = str.str();	// ·Ç¶Ô³Æ¼ÓÃÜµÄ¹«Ô¿
+	reqInfo.cmd = 1;	// ç§˜é’¥åå•†
+	reqInfo.data = str.str();	// éå¯¹ç§°åŠ å¯†çš„å…¬é’¥
 	Hash a(T_SHA1);
 	a.addData(str.str());
-	reqInfo.sign = rsa.rsaSign(a.result());	// ¹«Ô¿µÄÇ©Ãû
+	reqInfo.sign = rsa.rsaSign(a.result());	// å…¬é’¥çš„ç­¾å
+	std::cout << "ç­¾åå®Œæˆ" << std::endl;
 	CodecFactory* factory = new RequestFactory(&reqInfo);
 	Codec* c = factory->createCodec();
-	// µÃµ½ĞòÁĞ»¯Ö®ºóµÄÊı¾İ, ¿ÉÒÔ½«Æä·¢ËÍ¸ø·şÎñÆ÷¶Ë
+	// å¾—åˆ°åºåˆ—åŒ–ä¹‹åçš„æ•°æ®, å¯ä»¥å°†å…¶å‘é€ç»™æœåŠ¡å™¨ç«¯
 	string encstr = c->encodeMsg();
-	// ÊÍ·Å×ÊÔ´
+	// é‡Šæ”¾èµ„æº
 	delete factory;
 	delete c;
 	
-	// Ì×½Ó×ÖÍ¨ĞÅ, µ±Ç°ÊÇ¿Í»§¶Ë, Á¬½Ó·şÎñÆ÷
+	// å¥—æ¥å­—é€šä¿¡, å½“å‰æ˜¯å®¢æˆ·ç«¯, è¿æ¥æœåŠ¡å™¨
 	TcpSocket* tcp = new TcpSocket;
-	// Á¬½Ó·şÎñÆ÷
-	cout << m_info.ip << ", ¶Ë¿Ú:" << m_info.port << endl;
+	// è¿æ¥æœåŠ¡å™¨
+	cout << m_info.ip << ", ç«¯å£:" << m_info.port << endl;
 	int ret = tcp->connectToHost(m_info.ip, m_info.port);
 	if (ret != 0)
 	{
-		cout << "Á¬½Ó·şÎñÆ÷Ê§°Ü..." << endl;
+		cout << "è¿æ¥æœåŠ¡å™¨å¤±è´¥..." << endl;
 		return false;
 	}
-	cout << "Á¬½Ó·şÎñÆ÷³É¹¦..." << endl;
-	// ·¢ËÍĞòÁĞ»¯µÄÊı¾İ
+	cout << "è¿æ¥æœåŠ¡å™¨æˆåŠŸ..." << endl;
+	// å‘é€åºåˆ—åŒ–çš„æ•°æ®
 	tcp->sendMsg(encstr);
-	// µÈ´ı·şÎñÆ÷»Ø¸´
+	// ç­‰å¾…æœåŠ¡å™¨å›å¤
 	string msg = tcp->recvMsg();
-	// ½âÎö·şÎñÆ÷Êı¾İ -> ½âÂë(·´ĞòÁĞ»¯)
-		// Êı¾İ»¹Ô­µ½ RespondMsg
+	// è§£ææœåŠ¡å™¨æ•°æ® -> è§£ç (ååºåˆ—åŒ–)
+		// æ•°æ®è¿˜åŸåˆ° RespondMsg
 	factory = new RespondFactory(msg);
 	c = factory->createCodec();
 	RespondMsg* resData = (RespondMsg*)c->decodeMsg();
-	// ÅĞ¶Ï×´Ì¬
+	// åˆ¤æ–­çŠ¶æ€
 	if (!resData->status())
 	{
-		cout << "ÃØÔ¿Ğ­ÉÌÊ§°Ü" << endl;
+		cout << "ç§˜é’¥åå•†å¤±è´¥" << endl;
 		return false;
 	}
-	// ½«µÃµ½µÄÃÜÎÄ½âÃÜ
+	// å°†å¾—åˆ°çš„å¯†æ–‡è§£å¯†
 	string key = rsa.rsaPriKeyDecrypt(resData->data());
-	cout << "¶Ô³Æ¼ÓÃÜµÄÃØÔ¿: " << key << endl;
+	cout << "å¯¹ç§°åŠ å¯†çš„ç§˜é’¥: " << key << endl;
 
 	delete factory;
 	delete c;
+	// çŸ­è¿æ¥, é€šä¿¡å®Œæˆ, æ–­å¼€è¿æ¥
+	tcp->disConnect();
 	delete tcp;
 
 	return true;
